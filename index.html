@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Museos</title>
+</head>
+
+<body>
+    <div class="container-lg">
+        <header>
+            <!-- <div class="row gy-5" style="height:50vh">
+                <div class="col-6">
+                    <img src="./img/euda_logo.png" alt="">
+                </div>
+                <div class="col-6">
+                    <img src="./img/logo unq.png" alt="">
+                </div>
+            </div> -->
+            <nav class="navbar">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <!-- <img src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24"> -->
+                    <img src="./img/euda_logo.png" alt="" class="d-inline-block align-text-top img-fluid">
+                    <img src="./img/logo unq.png" alt="" class="d-inline-block align-text-top img-fluid">
+                  </a>
+                </div>
+              </nav>
+        </header>
+        <div class="row text-center" style="height:40vh">
+            <div class="col col-sm-12">
+                <h1>Museos</h1>
+                <p>El fin de esta página es el de dar a conocer los museos dentro de GBA y CABA donde se expongan
+                    obras
+                    afines a las artes digitales.
+                </p>
+            </div>
+        </div>
+        <div class="row text-center" style="height:100vh">
+            <div class="col-12">
+                <h3>MAPA</h3>
+                <iframe id="googleMap"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.687482870071!2d-58.39202299999999!3d-34.586773400000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbaf2f03d0d9%3A0xd2d2eff0a66548b3!2sJun%C3%ADn%201930%2C%20C1113AAX%20CABA!5e0!3m2!1ses-419!2sar!4v1668276100079!5m2!1ses-419!2sar"
+                    width="" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="row text-center" style="height:100vh">
+            <div class="col-12">
+                <h2>Museos para Visitar</h2>
+                <ul class="list-group" id="listaDeMuseos">
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Museo
+                                participativo
+                                de Ciencias</div>
+                            <p>Dirección: Centro cultural recoleta Junin 1930 CABA</p>
+                            <h6><img src="img/display.svg"><a href="https://www.mpc.org.ar/movil/"> Sitio web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Museo
+                                de arte Latinoamericano
+                                de Buenos Aires</div>
+                            <p>Dirección: Av. Pres. Figueroa Alcorta 3415 CABA</p>
+                            <h6><img src="img/display.svg"><a href="https://www.malba.org.ar/es/"> Sitio web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Museo Nacional de
+                                arte decorativo</div>
+                            <p>Dirección: Av. del Libertador 1902 CABA</p>
+                            <h6><img src="img/display.svg"><a href="https://museoartedecorativo.cultura.gob.ar/"> Sitio
+                                    web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Museo de arte
+                                moderno de Buenos
+                                Aires</div>
+                            <p>Dirección: Av. San Juan 350 Buenos Aires</p>
+                            <h6><img src="img/display.svg"><a href="https://museomoderno.org/"> Sitio web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Museo Kosice</div>
+                            <p>Dirección: Humahuaca 4662 CABA</p>
+                            <h6><img src="img/display.svg"><a href="http://kosice.com.ar/"> Sitio web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Museo
+                                Argentino
+                                de
+                                Ciencias Naturales Bernardino Rivadavia</div>
+                            <p>Dirección: Av. Patricias Argentinas 480 CABA</p>
+                            <h6><img src="img/display.svg"><a href="https://www.macnconicet.gob.ar/"> Sitio web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Museo de arte
+                                municipal de La Plata</div>
+                            <p>Dirección: Calle 50 575 La Plata</p>
+                            <h6><img src="img/display.svg"><a href="https://cultura.laplata.gob.ar/listings/mumart/">
+                                    Sitio web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Centro cultural
+                                Kirchner</div>
+                            <p>Dirección: Sarmiento 151 CABA</p>
+                            <h6><img src="img/display.svg"><a href="https://www.cck.gob.ar/"> Sitio web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Fundacion PROA</div>
+                            <p>Dirección: Av. Don Pedro de Mendoza 1929 CABA</p>
+                            <h6><img src="img/display.svg"><a href="http://www.proa.org/esp/"> Sitio web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Museo de
+                                arte contemporaneo de
+                                Buenos Aires</div>
+                            <p>Dirección: Av San Juan 328 CABA</p>
+                            <h6><img src="img/display.svg"><a href="https://museomacba.org/"> Sitio web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-12 me-auto">
+                            <div class="fw-bold">Centro de Arte UNLP</div>
+                            <p>Dirección: Calle 48 575 La Plata</p>
+                            <h6><img src="img/display.svg"><a href="https://www.centrodearte.unlp.edu.ar/"> Sitio
+                                    web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Palais
+                                de Glace-Palacio
+                                Nacional de las artes</div>
+                            <p>Dirección: Viamonte 525 CABA</p>
+                            <h6><img src="img/display.svg"><a href="https://palaisdeglace.cultura.gob.ar/"> Sitio
+                                    web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Museo de arte
+                                contemporáneo del Sur</div>
+                            <p>Dirección: Av. 25 de Mayo 131 Lanús</p>
+                            <h6><img src="img/display.svg"><a href="https://www.macsurlanus.gob.ar/"> Sitio web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Centro de arte
+                                contemporáneo</div>
+                            <p>Dirección: Hotel de los inmigrantes UNTREF Av. Antartida Argentina 1335 CABA</p>
+                            <h6><img src="img/display.svg"><a
+                                    href="http://untref.edu.ar/muntref/es/centro-de-arte-contemporaneo/"> Sitio web</a>
+                            </h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Usina del arte</div>
+                            <p>Dirección: Agustin R. Caffarena 1 CABA</p>
+                            <h6><img src="img/display.svg"><a href="https://www.buenosaires.gob.ar/usinadelarte"> Sitio
+                                    web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Centro cultural de la
+                                ciencia</div>
+                            <p>Dirección: Godoy Cruz 2270 Buenos Aires</p>
+                            <h6><img src="img/display.svg"><a href="http://c3.mincyt.gob.ar/"> Sitio web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Museo
+                                provincial
+                                de Bellas
+                                Artes Emilio Pettoruti</div>
+                            <p>Dirección: Av. 51 525 La Plata</p>
+                            <h6><img src="img/display.svg"><a href="https://www.gba.gob.ar/museo_pettoruti"> Sitio
+                                    web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Centro Municipal
+                                de arte Avellaneda</div>
+                            <p>Dirección: San Martin 797 Avellaneda Buenos Aires</p>
+                            <h6><img src="img/display.svg"><a
+                                    href="https://www.mda.gob.ar/ciudad/avellaneda-virtual/centro-municipal-de-arte/">
+                                    Sitio web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">CASO Centro de arte
+                                sonoro</div>
+                            <p>Dirección: Riobamba 985 CABA</p>
+                            <h6><img src="img/display.svg"><a
+                                    href="https://centrodeartesonoro.cultura.gob.ar/info/centro-de-arte-sonoro-caso/">
+                                    Sitio web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Central Newbery</div>
+                            <p>Dirección: Jorge Newbery 3599 CABA</p>
+                            <h6><img src="img/display.svg"><a href="http://www.centralnewbery.com.ar/"> Sitio web</a>
+                            </h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Amigos del Bellas Artes
+                            </div>
+                            <p>Dirección: Av. Pres. Figueroa Alcorta 2280 CABA</p>
+                            <h6><img src="img/display.svg"><a href="https://amigosdelbellasartes.org.ar/"> Sitio web</a>
+                            </h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Artlab</div>
+                            <p>Dirección: Roseti 93 CABA</p>
+                            <h6><img src="img/display.svg"><a href="https://artlabpro.net/"> Sitio web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Centro cultural Borges
+                            </div>
+                            <p>Dirección: Viamonte 525 CABA</p>
+                            <h6><img src="img/display.svg"><a href="https://ccborges.negocio.site/"> Sitio web</a></h6>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Barro La Boca</div>
+                            <p>Dirección: Caboto 531 CABA</p>
+                            <h6><img src="img/display.svg"><a href="https://www.barro.cc/"> Sitio web</a></h6>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer class="bg-dark text-center text-white">
+            <div class="container p-4">
+
+                <section class="mb-4">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+                        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+                        eum harum corrupti dicta, aliquam sequi voluptate quas.
+                    </p>
+                </section>
+
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022
+                <a class="text-white" href="https://mdbootstrap.com/">Interfaces y Diseño de Interacciones para la
+                    Práctica Artística</a>
+            </div>
+        </footer>
+    </div>
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
